@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+#icon{
+    float: left;
+
+}
+
+header{
+    float: left;
+    background-color: green;
+    width: 99.4%;
+    padding: 0.3%;
+    border-bottom: 5px solid darkblue;
+
+}
+
+header>p{
+    font-size: 400%;
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+}
+
+body{
+    background-color: salmon;
+
+}
+#message{
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    margin: auto;
+    padding: 100px 100px;
+}
+
+#btn{
+    float: right;
+    margin-top: 350px;
+    width: 50px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#showMessage{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+
+}

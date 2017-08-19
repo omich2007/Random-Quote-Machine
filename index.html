@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="CSS/main.css" type="text/css"
+          charset="utf-8">
+</head>
+
+<header>
+    <div id="icon">
+        <img src="img/text.png" title="The best quotes" height="100" width="100">
+    </div>
+    <p>
+    The best quotes
+    </p>
+</header>
+
+<p>
+<div style="clear: both"><br></div>
+
+
+<div id="showMessage">
+<div id="message">
+
+    <a href="" id="btn" onclick="randomQuotes()">Push</a>
+
+</div>
+</div>
+</body>
+<script id="workElement">
+
+    function randomQuotes() {
+
+        var quotes = ['Фраза1','Фраза2','Фраза3','Фраза4','Фраза5'];
+        var rand = Math.floor(Math.random() * quotes.length);
+
+
+        var theElement = document.getElementById("message");
+        theElement.innerHTML = quotes [rand] ;
+        return;
+    }
+
+</script>
+</html>
