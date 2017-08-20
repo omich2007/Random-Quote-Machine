@@ -2,44 +2,39 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Random Quote Machine</title>
-    <link rel="stylesheet" href="CSS/main.css" type="text/css"
+    <title>Український гумор</title>
+    <link rel="stylesheet" href="CSS/main.css"  type="text/css"
           charset="utf-8">
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $('#message').cycle();</script>
 </head>
 
 <header>
     <div id="icon">
-        <img src="img/text.png" title="The best quotes" height="100" width="100">
+        <img src="img/127893.jpg" title="The best quotes" height="80" width="100">
     </div>
     <p>
-    The best quotes
+    Кращі жарти
     </p>
 </header>
 
+<body>
 <p>
 <div style="clear: both"><br></div>
 
+<button class="btn">Тисни</button>
 
-<div id="showMessage">
-<div id="message">
+<div id="messageBox">
 
-    <a href="" id="btn" onclick="randomQuotes()">Push</a>
-
+   <center> <span id="message"></span> </center>
 </div>
-</div>
+<script src="Script/randomFont.js"></script>
+<script src="Script/randomMachine.js"> </script>
 </body>
-<script id="workElement">
-
-    function randomQuotes() {
-
-        var quotes = ['Фраза1','Фраза2','Фраза3','Фраза4','Фраза5'];
-        var rand = Math.floor(Math.random() * quotes.length);
 
 
-        var theElement = document.getElementById("message");
-        theElement.innerHTML = quotes [rand] ;
-        return;
-    }
 
-</script>
+
+
 </html>

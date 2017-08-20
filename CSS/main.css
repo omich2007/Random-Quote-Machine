@@ -11,10 +11,10 @@
 
 header{
     float: left;
-    background-color: green;
+    background-color: blue;
     width: 99.4%;
     padding: 0.3%;
-    border-bottom: 5px solid darkblue;
+    border-bottom: 25px solid yellow;
 
 }
 
@@ -26,28 +26,38 @@ header>p{
 }
 
 body{
-    background-color: salmon;
+    background-image: url("http://img0.liveinternet.ru/images/attach/c/7/96/364/96364306_0_4eb66_f1ba1c69_L.jpg");
 
 }
-#message{
-    width: 400px;
+#messageBox{
+    width: 800px;
     height: 300px;
-    background-color: red;
+    background-color: #4960dc;
     margin: auto;
-    padding: 100px 100px;
+    padding: 50px 50px;
+    border-radius: 20px;
+    background-image: url("http://mtdata.ru/u5/photoC1EB/20306498144-0/original.png");
+    background-size: contain;
 }
 
-#btn{
+.btn{
     float: right;
-    margin-top: 350px;
-    width: 50px;
-    height: 30px;
-    margin-right: 20px;
+    width: 70px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 30px 30px;
+    bottom: 100px;
+    position: absolute;
+    right: 600px;
 }
 
-#showMessage{
-    color: black;
+#message{
+    font-size: 40px;
+    font-family: "fantasy";
     text-align: center;
-    font-size: 32px;
-
+    width: 200px;
+    height: 200px;
+    background-color: white;
 }
+
