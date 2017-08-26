@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-}
+
 
 #icon{
     float: left;
@@ -18,7 +14,7 @@ header{
 
 }
 
-header>p{
+header{
     font-size: 400%;
     text-align: center;
     color: white;
